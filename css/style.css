@@ -35,6 +35,10 @@ h6 {
     float: left;
 }
 
+.w50 {
+    width: 50%;
+}
+
 .btn {
     display: inline-block;
     min-width: 100px;
@@ -48,6 +52,10 @@ h6 {
 .btn.btn-green {
     background-color: #7BBC00;
     border-color: #7BBC00;
+}
+
+.btn.btn-large {
+    padding: 20px;
 }
 
 /* HEADER */
@@ -87,7 +95,8 @@ h6 {
     margin-right: 0;
 }
 
-.main-header a {
+.main-header a,
+a.btn {
     text-decoration: none;
     color: #eee;
 }
@@ -103,4 +112,31 @@ h6 {
 .nav-right {
     width: 40%;
     text-align: right;
+}
+
+/* MAIN */
+/* Hero */
+.hero {
+    height: 480px;
+    background-color: #0D325A;
+    background-image: url('../img/background-header.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 120% 110%;
+}
+
+.hero .container{
+    height: 100%;
+}
+
+.main-title {
+    color: white;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.main-title h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
 }
