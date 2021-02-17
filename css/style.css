@@ -120,7 +120,7 @@ a.btn {
     height: 480px;
     background-color: #0D325A;
     background-image: url('../img/background-header.png');
-    background-size: contain;
+    background-size: 1000px;
     background-repeat: no-repeat;
     background-position: 120% 110%;
 }
@@ -139,4 +139,16 @@ a.btn {
 .main-title h1 {
     font-size: 48px;
     margin-bottom: 40px;
+}
+
+/* Sec Gray */
+.gray-sec {
+    background-color: #D3D3D3;
+    text-align: center;
+    padding: 40px;
+}
+
+.gray-sec h2{
+    color: black;
+    margin-bottom: 20px;
 }
