@@ -3,3 +3,106 @@
     border: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #888;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+}
+
+/* UTILITIES */
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.float-L {
+    float: left;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 100px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.btn.btn-green {
+    background-color: #7BBC00;
+}
+
+/* HEADER */
+.main-header {
+    background-color: #0D325A;
+    line-height: 80px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.main-header .container .logo{
+    width: 15%;
+}
+
+.main-header .container .logo img{
+    vertical-align: middle;
+    position: relative;
+    bottom: 5px;
+}
+
+/* main nav */
+
+.main-nav {
+    width: 45%;
+}
+
+.main-header ul {
+    display: inline-block;
+}
+
+.main-header ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.main-header ul li:last-child{
+    margin-right: 0;
+}
+
+.main-header a {
+    text-decoration: none;
+    color: #eee;
+}
+
+.main-header li a:hover {
+    color: #7BBC00;
+}
+
+.main-header li .btn.btn-green:hover {
+    color: #8b0e0a;
+}
+
+.main-header a.btn {
+    line-height: 1;
+}
+
+.nav-right {
+    width: 40%;
+}
