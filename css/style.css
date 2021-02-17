@@ -5,6 +5,7 @@
 }
 
 body {
+    padding-top: 80px;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #888;
@@ -71,6 +72,14 @@ hr {
 }
 
 /* HEADER */
+.main-header.fixed {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+
+}
+
 .main-header {
     background-color: #0D325A;
     line-height: 80px;
@@ -227,7 +236,7 @@ footer .container .col:nth-child(2) {
     text-align: right;
 }
 
-footer .fixed {
+footer .btn.fixed {
     position: fixed;
     bottom: -5px;
     right: 50px;
