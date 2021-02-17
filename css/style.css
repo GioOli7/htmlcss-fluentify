@@ -58,6 +58,7 @@ hr {
     text-decoration: none;
     border: 1px solid white;
     border-radius: 5px;
+    color: white;
 }
 
 .btn.btn-green {
@@ -160,7 +161,7 @@ a.btn {
 }
 
 .gray-sec h2,
-.two-col h2 {
+.two-col h2{
     color: black;
     margin-bottom: 20px;
 }
@@ -194,8 +195,10 @@ a.btn {
     padding: 40px;
 }
 
-.two-col h2{
+.two-col h2,
+footer h2 {
     font-size: 32px;
+    color: black;
 }
 .two-col p{
     margin-bottom: 20px;
@@ -203,4 +206,29 @@ a.btn {
 
 .two-col a{
     color: #5D8BBE;
+}
+
+/* footer */
+footer {
+    background-color: #D3D3D3;
+    padding: 50px;
+}
+
+footer span {
+    font-weight: bold;
+    margin-right: 25px;
+}
+
+footer span:nth-child(2){
+    text-decoration: underline;
+}
+
+footer .container .col:nth-child(2) {
+    text-align: right;
+}
+
+footer .fixed {
+    position: fixed;
+    bottom: -5px;
+    right: 50px;
 }
