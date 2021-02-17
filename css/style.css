@@ -169,11 +169,10 @@ a.btn {
     color: #7BBC00;
 }
 
-.three-col hr{
+.three-col .col hr{
     display: inline-block;
-    width: 30%;
     border: 1px solid lightgray;
+    width: 30%;
     margin-top: 20px;
     margin-bottom: 15px;
-
 }
