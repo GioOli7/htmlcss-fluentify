@@ -152,3 +152,28 @@ a.btn {
     color: black;
     margin-bottom: 20px;
 }
+
+/* Section three columns */
+.col {
+    text-align: center;
+    width: calc(100%/3);
+    padding: 40px;
+}
+
+.three-col img {
+    height: 150px;
+    margin-bottom: 25px;
+}
+
+.three-col h2 {
+    color: #7BBC00;
+}
+
+.three-col hr{
+    display: inline-block;
+    width: 30%;
+    border: 1px solid lightgray;
+    margin-top: 20px;
+    margin-bottom: 15px;
+
+}
