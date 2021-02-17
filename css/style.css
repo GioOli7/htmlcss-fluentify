@@ -8,6 +8,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     color: #888;
+    font-weight: 400;
 }
 
 h1,
@@ -19,9 +20,19 @@ h6 {
     font-weight: 500;
 }
 
+p {
+    line-height: 1.5em;
+}
+
+hr {
+    border: 1px solid lightgray;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
 /* UTILITIES */
 .container {
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -148,13 +159,14 @@ a.btn {
     padding: 40px;
 }
 
-.gray-sec h2{
+.gray-sec h2,
+.two-col h2 {
     color: black;
     margin-bottom: 20px;
 }
 
 /* Section three columns */
-.col {
+.three-col .col {
     text-align: center;
     width: calc(100%/3);
     padding: 40px;
@@ -175,4 +187,20 @@ a.btn {
     width: 30%;
     margin-top: 20px;
     margin-bottom: 15px;
+}
+
+/* section two columns */
+.two-col .col {
+    padding: 40px;
+}
+
+.two-col h2{
+    font-size: 32px;
+}
+.two-col p{
+    margin-bottom: 20px;
+}
+
+.two-col a{
+    color: #5D8BBE;
 }
