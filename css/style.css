@@ -47,6 +47,7 @@ h6 {
 
 .btn.btn-green {
     background-color: #7BBC00;
+    border-color: #7BBC00;
 }
 
 /* HEADER */
@@ -91,12 +92,8 @@ h6 {
     color: #eee;
 }
 
-.main-header li a:hover {
+.main-header li a:not(.btn):hover {
     color: #7BBC00;
-}
-
-.main-header li .btn.btn-green:hover {
-    color: #8b0e0a;
 }
 
 .main-header a.btn {
@@ -105,4 +102,5 @@ h6 {
 
 .nav-right {
     width: 40%;
+    text-align: right;
 }
