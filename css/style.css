@@ -21,9 +21,6 @@ h6 {
     font-weight: 500;
 }
 
-h2 {
-    color: black;
-}
 
 p {
     line-height: 1.5em;
@@ -83,6 +80,14 @@ hr {
     padding: 70px 40px;
 }
 
+.BG-blue {  
+    background-color: #0D325A;
+}
+
+.BG-blue h2 {
+    color: white;
+}
+
 /* HEADER */
 .main-header.fixed {
     position: fixed;
@@ -93,7 +98,7 @@ hr {
 }
 
 .main-header {
-    background-color: #0D325A;
+    /* background-color: #0D325A; */
     line-height: 80px;
     text-transform: uppercase;
     font-size: 12px;
@@ -151,7 +156,7 @@ a.btn {
 /* Hero */
 .hero {
     height: 480px;
-    background-color: #0D325A;
+    /* background-color: #0D325A; */
     background-image: url('../img/background-header.png');
     background-size: 1000px;
     background-repeat: no-repeat;
@@ -163,7 +168,7 @@ a.btn {
 }
 
 .main-title {
-    color: white;
+    /* color: white; */
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -227,10 +232,14 @@ a.btn {
     margin-bottom: 20px;
 }
 
-
+/* STRUTTURA PIANO SECTION */
 .struttura-piano {
     background-color: #D3D3D3;
     padding: 50px;
+}
+
+.struttura-piano h2 {
+    color: black;
 }
 
 .struttura-piano span {
@@ -279,6 +288,10 @@ a.btn {
     width: 100%;
 }
 
+.tech h2{
+    color: black;
+}
+
 .tech span.green {
     color: #7BBC00;
 }
@@ -289,7 +302,16 @@ a.btn {
     font-size: 13px;
 }
 
+/* SECTION INGLESE-AZIENDA */
 
+.inglese-azienda .container.left {
+    width: 30%;
+    margin: 0;
+}
+
+.inglese-azienda .container.left *{
+    margin-bottom: 25px;
+}
 
 
 
