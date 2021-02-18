@@ -21,8 +21,16 @@ h6 {
     font-weight: 500;
 }
 
+h2 {
+    color: black;
+}
+
 p {
     line-height: 1.5em;
+}
+
+a{
+    color: #5D8BBE;
 }
 
 hr {
@@ -72,7 +80,7 @@ hr {
 }
 
 .col {
-    padding: 60px 40px;
+    padding: 70px 40px;
 }
 
 /* HEADER */
@@ -212,7 +220,6 @@ a.btn {
 .two-col h2,
 .struttura-piano h2 {
     font-size: 32px;
-    color: black;
 }
 
 .two-col p,
@@ -220,9 +227,6 @@ a.btn {
     margin-bottom: 20px;
 }
 
-.two-col a{
-    color: #5D8BBE;
-}
 
 .struttura-piano {
     background-color: #D3D3D3;
@@ -254,8 +258,36 @@ a.btn {
     font-size: 17px;
 }
 
+.inglese-davvero hr {
+    border-color: rgba(0, 0, 0, 0.1);
+}
 
+/* section TECH */
 
+/* rimpicciolisco il container per questa sezione */
+.tech .container {
+    width: 650px;
+    text-align: center;
+}
+
+/* mi facilito le marginature per tutti gli elementi al suo interno */
+.tech .container *{
+    margin-bottom: 20px;
+}
+
+.tech img {
+    width: 100%;
+}
+
+.tech span.green {
+    color: #7BBC00;
+}
+
+/* riduco font size per il secondo elemento p della sezione */
+/* NON FUNZIONA */
+.tech .container p:first-child {
+    font-size: 13px;
+}
 
 
 
