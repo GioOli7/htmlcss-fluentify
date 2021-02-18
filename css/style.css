@@ -84,6 +84,7 @@ hr {
     background-color: #0D325A;
 }
 
+.BG-blue h1,
 .BG-blue h2 {
     color: white;
 }
@@ -223,7 +224,7 @@ a.btn {
 } */
 
 .two-col h2,
-.struttura-piano h2 {
+.struttura-piano-gray-sec h2 {
     font-size: 32px;
 }
 
@@ -233,25 +234,25 @@ a.btn {
 }
 
 /* STRUTTURA PIANO SECTION */
-.struttura-piano {
+.struttura-piano-gray-sec {
     background-color: #D3D3D3;
     padding: 50px;
 }
 
-.struttura-piano h2 {
+.struttura-piano-gray-sec h2 {
     color: black;
 }
 
-.struttura-piano span {
+.struttura-piano-gray-sec span {
     font-weight: bold;
     margin-right: 25px;
 }
 
-.struttura-piano span:nth-child(2){
+.struttura-piano-gray-sec span:nth-child(2){
     text-decoration: underline;
 }
 
-.struttura-piano .container .float-L:nth-child(2) {
+.struttura-piano-gray-sec .container .float-L:nth-child(2) {
     text-align: right;
 }
 
@@ -313,9 +314,52 @@ a.btn {
     margin-bottom: 25px;
 }
 
+.inglese-azienda .btn {
+    width: 50%;
+}
 
+/* Struttura un piano */
+.struttura-piano *{
+    margin-bottom: 15px;
+}
 
+/* diminuisco la dimensione del container */
+.struttura-piano .container{
+    width: 1050px;
+}
 
+.struttura-piano h2{
+    color: black;
+    text-align: center;
+}
+
+.struttura-piano.three-col .col{
+    text-align: left;
+}
+
+.struttura-piano.three-col.col img{
+    height: 50px;
+}
+
+.struttura-piano h3{
+    color: black;
+}
+
+/* imposto un bordo colorato al di sotto di ogni elemento p */
+/* NON CAPISCO PERCHÈ BISOGNA AUMENTARe DI 1 IL NUMERO DI NTH-CHILD*/
+/* RISPETTO AL NORMALE FUNZIONAMENTO */
+.struttura-piano .container .float-L:nth-child(2) p {
+    border-bottom: 5px solid #9FC8EA;
+    padding-bottom: 20px;
+}
+.struttura-piano .container .float-L:nth-child(3) p {
+    border-bottom: 5px solid #F5A50F;
+    padding-bottom: 20px;
+}
+.struttura-piano .container .float-L:nth-child(4) p {
+    border-bottom: 5px solid #81B310;
+    padding-bottom: 20px;
+}
 
 
 
