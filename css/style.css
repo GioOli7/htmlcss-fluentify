@@ -1,6 +1,6 @@
 * {
     margin: 0;
-    border: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -319,7 +319,7 @@ a.btn {
 }
 
 /* Struttura un piano */
-.struttura-piano *{
+.struttura-piano .container *{
     margin-bottom: 15px;
 }
 
@@ -361,14 +361,52 @@ a.btn {
     padding-bottom: 20px;
 }
 
+/* FAQ */
+/* margine tra gli elementi */
+.faq .container *{
+    margin-bottom: 20px;
+}
 
+.faq span {
+    color: #F5A50F;
+}
 
+/* FOOTER */
 
+footer {
+    background-color: #17416B;
+}
 
+footer h2{
+    color: white;
+}
 
-/* footer */
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    padding-top: 15px;
+}
+
+footer .col-left {
+    width: 50%;
+}
+
+/* margine tra gli elementi figli diretti di col-right */
+footer .col-right > * {
+    margin-bottom: 40px;
+}
+
+footer .col-right {
+    width: 50%;
+    text-align: right;
+}
+
+/* bottone HELP fixed */
 footer .btn.fixed {
     position: fixed;
-    bottom: -5px;
+    bottom: 0px;
     right: 50px;
+    border-radius: 5px 5px 0 0;
 }
