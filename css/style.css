@@ -71,6 +71,10 @@ hr {
     padding: 20px;
 }
 
+.col {
+    padding: 60px 40px;
+}
+
 /* HEADER */
 .main-header.fixed {
     position: fixed;
@@ -170,7 +174,8 @@ a.btn {
 }
 
 .gray-sec h2,
-.two-col h2{
+.two-col h2,
+.inglese-davvero h2{
     color: black;
     margin-bottom: 20px;
 }
@@ -179,7 +184,7 @@ a.btn {
 .three-col .col {
     text-align: center;
     width: calc(100%/3);
-    padding: 40px;
+    /* padding: 40px; */
 }
 
 .three-col img {
@@ -200,16 +205,18 @@ a.btn {
 }
 
 /* section two columns */
-.two-col .col {
+/* .two-col .col {
     padding: 40px;
-}
+} */
 
 .two-col h2,
-footer h2 {
+.struttura-piano h2 {
     font-size: 32px;
     color: black;
 }
-.two-col p{
+
+.two-col p,
+.inglese-davvero p {
     margin-bottom: 20px;
 }
 
@@ -217,25 +224,51 @@ footer h2 {
     color: #5D8BBE;
 }
 
-/* footer */
-footer {
+.struttura-piano {
     background-color: #D3D3D3;
     padding: 50px;
 }
 
-footer span {
+.struttura-piano span {
     font-weight: bold;
     margin-right: 25px;
 }
 
-footer span:nth-child(2){
+.struttura-piano span:nth-child(2){
     text-decoration: underline;
 }
 
-footer .container .col:nth-child(2) {
+.struttura-piano .container .float-L:nth-child(2) {
     text-align: right;
 }
 
+/* Section Inglese davvero */
+.inglese-davvero .btn {
+    font-size: 12px;
+}
+
+.inglese-davvero span.w50 {
+    padding-left: 5px;
+    text-align: center;
+    color: #BAC9CE;
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
 footer .btn.fixed {
     position: fixed;
     bottom: -5px;
